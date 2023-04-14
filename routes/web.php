@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/index', function () {
+    return view('index');
+})->name('index');
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::prefix('example')->group(function () {
