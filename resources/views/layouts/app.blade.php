@@ -33,7 +33,7 @@
             <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>
         </div>
         <div class="c-wrapper">
-            <header class="c-header c-header-light c-header-fixed c-header-with-subheader">
+            <header class="c-header bg-light c-header-fixed c-header-with-subheader">
                 <button class="c-header-toggler c-class-toggler d-lg-none mr-auto" type="button" data-target="#sidebar" data-class="c-sidebar-show">
                     <span class="c-header-toggler-icon"></span>
                 </button>
@@ -44,7 +44,7 @@
 
                 <ul class="c-header-nav d-md-down-none">
                     <li class="c-header-nav-item px-3">
-                        <x-jet-nav-link href="{{ route('index') }}" :active="request()->routeIs('dashboard')">
+                        <x-jet-nav-link href="{{ route('index') }}" :active="request()->routeIs('index')">
                             {{ __('Clientes') }}
                         </x-jet-nav-link>
                     </li>
@@ -78,9 +78,9 @@
 
             </main>
 
-            <footer class="c-footer">
+            <footer class="c-footer" style="text-decoration: none;">
               <div>
-                  <a href="">Luiz Otavio Alves</a> © {{ date('Y') }}.
+                  <a target="blank" href="https://www.linkedin.com/in/luiz-otavio-alves-62098614a/">Luiz Otavio Alves</a> © {{ date('Y') }}.
               </div>
             </footer>
           </div>
