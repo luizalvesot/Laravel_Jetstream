@@ -80,7 +80,7 @@
 
             <footer class="c-footer">
               <div>
-                  <a href="https://easytecbrasil.com.br/">Easytec Brasil</a> © {{ date('Y') }}.
+                  <a href="">Luiz Otavio Alves</a> © {{ date('Y') }}.
               </div>
             </footer>
           </div>
