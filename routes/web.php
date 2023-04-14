@@ -12,10 +12,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::middleware(['auth:sanctum', 'verified'])->get('/', function () {
+    return view('index');
+})->name('index');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*Route::get('/', function () {
+    return view('index');
+});*/
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/index', function () {
     return view('index');
