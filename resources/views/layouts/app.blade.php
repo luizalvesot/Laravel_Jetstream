@@ -44,8 +44,8 @@
 
                 <ul class="c-header-nav d-md-down-none">
                     <li class="c-header-nav-item px-3">
-                        <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                            {{ __('Dashboard') }}
+                        <x-jet-nav-link href="{{ route('index') }}" :active="request()->routeIs('dashboard')">
+                            {{ __('Clientes') }}
                         </x-jet-nav-link>
                     </li>
                 </ul>
