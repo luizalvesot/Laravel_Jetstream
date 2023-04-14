@@ -4,6 +4,6 @@
 
 Página web de modelo de um painel simples utilizando as tecnologias citadas acima para futuros projetos.
 
-Um dos pontos muito interessantes do ** Jetstream ** é a implementação das sessões de navegadores, dentre outras.
+Um dos pontos muito interessantes do `Jetstream` é a implementação das sessões de navegadores, dentre outras.
 
 
